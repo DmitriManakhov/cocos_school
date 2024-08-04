@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Я пишу текст для окна браузера, например Google Chrome</title>
+  <style>
+    table {
+      color: #964b00;
+      border: 2px solid red;
+    }
+
+    td {
+      border: 2px solid red;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Это заголовок H1</h1>
   <h2>Это заголовок H2</h2>
-  <p>Текст внутри <br>
-  тега р</p>
-  <b>Текст жирный</b>
-  <i>Текст курсивом</i>
-  <a href="https://www.youtube.com/watch?v=XuG7pBJIvlE">Ролик на ютуб</a>
-  <a href="#ideveloper">Якорь на параграф ideveloper</a>
-  <ul>
+  <p style="color: red;">Текст внутри <br>
+    тега р</p>
+  <b style="color: red;">Текст жирный</b><br>
+  <i style="color: red;">Текст курсивом</i><br>
+  <a href="https://www.youtube.com/watch?v=XuG7pBJIvlE">Ролик на ютуб</a><br>
+  <a href="#ideveloper">Якорь на параграф ideveloper</a><br>
+  <ul style="color: blue;">
     <li>Первый элемент списка</li>
     <li>Второй элемент списка</li>
     <li><a href="https://ya.ru/">Яндкс</a> ссылка на главную</li>
+    <li>
+      <ul style="color: red;">
+        <li>Второй уровень списка</li>
+        <li>Второй уровень списка</li>
+      </ul>
+    </li>
   </ul>
   <hr>
-  <table border="2px solid black">
+  <table>
     <tr>
-      <td><b>Наименования фрукта</b></td>
-      <td><b>Кол-во</b></td>
+      <td style="height: 100px;"><b>Наименования фрукта</b></td>
+      <td style="height: 100px;"><b>Кол-во</b></td>
     </tr>
     <tr>
       <td>Яблоко</td>
-      <td>2</td>
+      <td>2 <img src="https://images.gamebanana.com/img/av/63440424cb94b.jpg" alt=""></td>
     </tr>
     <tr>
       <td>Апельсин</td>
@@ -37,5 +54,10 @@
       <td>Итог: 5</td>
     </tr>
   </table>
+  <input type="text" value="---------- -----"><br>
+  <a href="#" style="color: red;">1 ссылка</a><br>
+  <a href="#" style="color: gray;">2 ссылка</a><br>
+  <a href="#" style="color: blue;">3 ссылка</a>
 </body>
+
 </html>
