@@ -4,76 +4,313 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Город-сад</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
 </head>
 
 <body>
-  <section>
-    <div class="container">
-      <div class="inner">
-        <div class="instagramm">
-          <h1 class="instagramm__title">Инстаграмм</h1>
-          <nav class="instagramm__menu">
-            <ul class="menu__items">
-              <li class="menu__item"><a class="menu__item_link main__link" href="">@gorod-sad.com</a></li>
-              <li class="menu__item"><a class="menu__item_link second__link" href="">#правильноепитание</a></li>
-              <li class="menu__item"><a class="menu__item_link second__link" href="">#снижениевеса</a></li>
-              <li class="menu__item"><a class="menu__item_link" href="">#спортпи</a></li>
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="container">
+        <div class="header__inner">
+          <ul class="nav">
+            <li class="nav__items">
+              <a class="nav__logo" href="#"><img class="nav__img" src="img/logo.svg" alt=""></a>
+            </li>
+            <li class="nav__items">
+              <ul class="nav__menu-items">
+                <li class="nav__menu-item"><a class="nav__menu-link" href="">Программы</a></li>
+                <li class="nav__menu-item"><a class="nav__menu-link" href="">Доставка</a></li>
+                <li class="nav__menu-item"><a class="nav__menu-link" href="">На чем основано меню?</a></li>
+                <li class="nav__menu-item"><a class="nav__menu-link" href="">О компании</a></li>
+              </ul>
+            </li>
+            <li class="nav__items">
+              <ul class="nav__tel">
+                <li class="nav__tel-items"><a class="tel_number" href="tel:to+74995214104">+7(499)521-41-04</a></li>
+                <li class="nav__tel-items"><a class="tel__bell" href="">Обратный звонок</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="header__main">
+          <img class="header__main_img" src="img/main_img.png" alt="">
+        </div>
+        <div class="header__main_btn">
+          <a class="header__main_link" href="">
+            <img class="header__main_link-img" src="img/calendar.svg" alt="">
+            <p class="header__main_link-text">Подобрать программу</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="mian">
+    <section>
+      <div class="container">
+        <div class="programm__inner">
+          <div class="programm">
+            <h3 class="programm__title main__title">Программы</h3>
+            <p class="programm__text">уникальные подарки внутри от партнеров</p>
+            <div class="programm__items">
+              <div class="programm__item">
+                <img class="programm__item_img" src="img/programm_img.jpg" alt="">
+                <h4 class="programm__item_title">Healthy&Tasty</h4>
+                <p class="programm__item_priem">4 приема</p>
+                <ul class="programm__item_descr">
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm1.svg" alt="">
+                    <p class="programm__item_descr-text">завтрак</p>
+                  </li>
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm2.svg" alt="">
+                    <p class="programm__item_descr-text">перекус</p>
+                  </li>
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm3.svg" alt="">
+                    <p class="programm__item_descr-text">обед</p>
+                  </li>
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm4.svg" alt="">
+                    <p class="programm__item_descr-text">ужин</p>
+                  </li>
+                </ul>
+                <ul class="programm__descr">
+                  <li class="programm__descr-text">Пинкейки гречневые с соусом</li>
+                  <li class="programm__descr-text">Крем-суп из шпината</li>
+                  <li class="programm__descr-text">Тыква запеченая с сахаром</li>
+                  <li class="programm__descr-text">Голубцы овощные</li>
+                </ul>
+                <a class="programm__btn" href="">Заказать программу</a>
+              </div>
+              <div class="programm__item">
+                <img class="programm__item_img" src="img/programm_img.jpg" alt="">
+                <h4 class="programm__item_title">Healthy&Tasty</h4>
+                <p class="programm__item_priem">4 приема</p>
+                <ul class="programm__item_descr">
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm1.svg" alt="">
+                    <p class="programm__item_descr-text">завтрак</p>
+                  </li>
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm2.svg" alt="">
+                    <p class="programm__item_descr-text">перекус</p>
+                  </li>
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm3.svg" alt="">
+                    <p class="programm__item_descr-text">обед</p>
+                  </li>
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm4.svg" alt="">
+                    <p class="programm__item_descr-text">ужин</p>
+                  </li>
+                </ul>
+                <ul class="programm__descr">
+                  <li class="programm__descr-text">Пинкейки гречневые с соусом</li>
+                  <li class="programm__descr-text">Крем-суп из шпината</li>
+                  <li class="programm__descr-text">Тыква запеченая с сахаром</li>
+                  <li class="programm__descr-text">Голубцы овощные</li>
+                </ul>
+                <a class="programm__btn" href="">Заказать программу</a>
+              </div>
+              <div class="programm__item">
+                <img class="programm__item_img" src="img/programm_img.jpg" alt="">
+                <h4 class="programm__item_title">Healthy&Tasty</h4>
+                <p class="programm__item_priem">4 приема</p>
+                <ul class="programm__item_descr">
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm1.svg" alt="">
+                    <p class="programm__item_descr-text">завтрак</p>
+                  </li>
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm2.svg" alt="">
+                    <p class="programm__item_descr-text">перекус</p>
+                  </li>
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm3.svg" alt="">
+                    <p class="programm__item_descr-text">обед</p>
+                  </li>
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm4.svg" alt="">
+                    <p class="programm__item_descr-text">ужин</p>
+                  </li>
+                </ul>
+                <ul class="programm__descr">
+                  <li class="programm__descr-text">Пинкейки гречневые с соусом</li>
+                  <li class="programm__descr-text">Крем-суп из шпината</li>
+                  <li class="programm__descr-text">Тыква запеченая с сахаром</li>
+                  <li class="programm__descr-text">Голубцы овощные</li>
+                </ul>
+                <a class="programm__btn" href="">Заказать программу</a>
+              </div>
+              <div class="programm__item">
+                <img class="programm__item_img" src="img/programm_img.jpg" alt="">
+                <h4 class="programm__item_title">Healthy&Tasty</h4>
+                <p class="programm__item_priem">4 приема</p>
+                <ul class="programm__item_descr">
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm1.svg" alt="">
+                    <p class="programm__item_descr-text">завтрак</p>
+                  </li>
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm2.svg" alt="">
+                    <p class="programm__item_descr-text">перекус</p>
+                  </li>
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm3.svg" alt="">
+                    <p class="programm__item_descr-text">обед</p>
+                  </li>
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm4.svg" alt="">
+                    <p class="programm__item_descr-text">ужин</p>
+                  </li>
+                </ul>
+                <ul class="programm__descr">
+                  <li class="programm__descr-text">Пинкейки гречневые с соусом</li>
+                  <li class="programm__descr-text">Крем-суп из шпината</li>
+                  <li class="programm__descr-text">Тыква запеченая с сахаром</li>
+                  <li class="programm__descr-text">Голубцы овощные</li>
+                </ul>
+                <a class="programm__btn" href="">Заказать программу</a>
+              </div>
+              <div class="programm__item">
+                <img class="programm__item_img" src="img/programm_img.jpg" alt="">
+                <h4 class="programm__item_title">Healthy&Tasty</h4>
+                <p class="programm__item_priem">4 приема</p>
+                <ul class="programm__item_descr">
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm1.svg" alt="">
+                    <p class="programm__item_descr-text">завтрак</p>
+                  </li>
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm2.svg" alt="">
+                    <p class="programm__item_descr-text">перекус</p>
+                  </li>
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm3.svg" alt="">
+                    <p class="programm__item_descr-text">обед</p>
+                  </li>
+                  <li class="programm__item_descr-items">
+                    <img src="img/programm4.svg" alt="">
+                    <p class="programm__item_descr-text">ужин</p>
+                  </li>
+                </ul>
+                <ul class="programm__descr">
+                  <li class="programm__descr-text">Пинкейки гречневые с соусом</li>
+                  <li class="programm__descr-text">Крем-суп из шпината</li>
+                  <li class="programm__descr-text">Тыква запеченая с сахаром</li>
+                  <li class="programm__descr-text">Голубцы овощные</li>
+                </ul>
+                <a class="programm__btn" href="">Заказать программу</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="instagramm__inner">
+          <div class="instagramm">
+            <h3 class="instagramm__title main__title">Инстаграмм</h3>
+            <nav class="instagramm__menu">
+              <ul class="menu__items">
+                <li class="menu__item"><a class="menu__item_link main__link" href="">@gorod-sad.com</a></li>
+                <li class="menu__item"><a class="menu__item_link second__link" href="">#правильноепитание</a></li>
+                <li class="menu__item"><a class="menu__item_link second__link" href="">#снижениевеса</a></li>
+                <li class="menu__item"><a class="menu__item_link" href="">#спортпит</a></li>
+              </ul>
+            </nav>
+            <ul class="instagramm__content-items">
+              <li><a class="instagramm__link" href="#"><img class="instagramm__content-items"
+                    src="../scool/img/b5508d8205ad162c952f04053ee64e1c 1.jpg" alt=""></a></li>
+              <li><a class="instagramm__link" href="#"><img class="instagramm__content-items"
+                    src="../scool/img/b5508d8205ad162c952f04053ee64e1c 1 (1).jpg" alt=""></a></li>
+              <li><a class="instagramm__link" href="#"><img class="instagramm__content-items"
+                    src="../scool/img/Group 311.jpg" alt=""></a></li>
+              <li><a class="instagramm__link" href="#"><img class="instagramm__content-items"
+                    src="../scool/img/b5508d8205ad162c952f04053ee64e1c 1 (2).jpg" alt=""></a></li>
+              <li><a class="instagramm__link" href="#"><img class="instagramm__content-items"
+                    src="../scool/img/b5508d8205ad162c952f04053ee64e1c 1.jpg" alt=""></a></li>
+              <li><a class="instagramm__link" href="#"><img class="instagramm__content-items"
+                    src="../scool/img/Group 311.jpg" alt=""></a></li>
+              <li><a class="instagramm__link" href="#"><img class="instagramm__content-items"
+                    src="../scool/img/b5508d8205ad162c952f04053ee64e1c 1 (1).jpg" alt=""></a></li>
+              <li><a class="instagramm__link" href="#"><img class="instagramm__content-items"
+                    src="../scool/img/b5508d8205ad162c952f04053ee64e1c 1.jpg" alt=""></a></li>
             </ul>
-          </nav>
-          <ul class="instagramm__content-items">
-            <li><a class="instagramm__link" href="#"><img class="instagramm__content-items"
-                  src="../scool/img/b5508d8205ad162c952f04053ee64e1c 1.jpg" alt=""></a></li>
-            <li><a class="instagramm__link" href="#"><img class="instagramm__content-items"
-                  src="../scool/img/b5508d8205ad162c952f04053ee64e1c 1 (1).jpg" alt=""></a></li>
-            <li><a class="instagramm__link" href="#"><img class="instagramm__content-items"
-                  src="../scool/img/Group 311.jpg" alt=""></a></li>
-            <li><a class="instagramm__link" href="#"><img class="instagramm__content-items"
-                  src="../scool/img/b5508d8205ad162c952f04053ee64e1c 1 (2).jpg" alt=""></a></li>
-            <li><a class="instagramm__link" href="#"><img class="instagramm__content-items"
-                  src="../scool/img/b5508d8205ad162c952f04053ee64e1c 1.jpg" alt=""></a></li>
-            <li><a class="instagramm__link" href="#"><img class="instagramm__content-items"
-                  src="../scool/img/Group 311.jpg" alt=""></a></li>
-            <li><a class="instagramm__link" href="#"><img class="instagramm__content-items"
-                  src="../scool/img/b5508d8205ad162c952f04053ee64e1c 1 (1).jpg" alt=""></a></li>
-            <li><a class="instagramm__link" href="#"><img class="instagramm__content-items"
-                  src="../scool/img/b5508d8205ad162c952f04053ee64e1c 1.jpg" alt=""></a></li>
-          </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section>
+    </section>
+    <section>
+      <div class="container">
+        <div class="descr__inner">
+          <div class="descr">
+            <ul class="descr__items">
+              <li class="descr__item">
+                <img class="descr__items_img" src="img/item1.svg" alt="">
+                <p class="descr__items_text">Разнообразное меню</p>
+              </li>
+              <li class="descr__item">
+                <img class="descr__items_img" src="img/item2.svg" alt="">
+                <p class="descr__items_text">Много офощей и фруктов</p>
+              </li>
+              <li class="descr__item">
+                <img class="descr__items_img" src="img/item3.svg" alt="">
+                <p class="descr__items_text">Минимум соли, без сахара</p>
+              </li>
+              <li class="descr__item">
+                <img class="descr__items_img" src="img/item4.svg" alt="">
+                <p class="descr__items_text">Полезные способы приготовления</p>
+              </li>
+              <li class="descr__item">
+                <img class="descr__items_img" src="img/item5.svg" alt="">
+                <p class="descr__items_text">Бесконтактная доставка</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
     <div class="container">
-      <div class="inner">
-        <div class="descr">
-          <ul class="descr__items">
-            <li class="descr__item">
-              <img class="descr__items_img" src="img/item1.svg" alt="">
-              <p class="descr__items_text">Разнообразное меню</p>
-            </li>
-            <li class="descr__item">
-              <img class="descr__items_img" src="img/item2.svg" alt="">
-              <p class="descr__items_text">Много офощей и фруктов</p>
-            </li>
-            <li class="descr__item">
-              <img class="descr__items_img" src="img/item3.svg" alt="">
-              <p class="descr__items_text">Минимум соли, без сахара</p>
-            </li>
-            <li class="descr__item">
-              <img class="descr__items_img" src="img/item4.svg" alt="">
-              <p class="descr__items_text">Полезные способы приготовления</p>
-            </li>
-            <li class="descr__item">
-              <img class="descr__items_img" src="img/item5.svg" alt="">
-              <p class="descr__items_text">Бесконтактная доставка</p>
-            </li>
-          </ul>
-        </div>
+      <div class="footer__inner">
+        <ul class="footer__nav">
+          <li class="footer__nav_items">
+            <a class="footer__logo" href="">
+              <img class="footer__logo-img" src="img/footer_logo.svg" alt="">
+            </a>
+          </li>
+          <li class="footer__nav_items footer__tel">
+            <a class="footer__tel-number" href="tel:to+74995214104">+7(499)521-41-04</a>
+            <p class="footer__adres">г. Москва, Семеновская наб. 2/1с1, офис 1003</p>
+            <a class="footer__mail" href="mailto:info@gorodsad.ru">info@gorodsad.ru</a>
+          </li>
+          <li class="footer__nav_items footer__social">
+            <a class="footer__social-link" href="">
+              <img class="footer__social-img" src="img/face.svg" alt="">
+            </a>
+            <a class="footer__social-link" href="">
+              <img class="footer__social-img" src="img/vk.svg" alt="">
+            </a>
+            <a class="footer__social-link" href="">
+              <img class="footer__social-img" src="img/insta.svg" alt="">
+            </a>
+            <a class="footer__social-link" href="">
+              <img class="footer__social-img" src="img/tube.svg" alt="">
+            </a>
+          </li>
+        </ul>
+        <ul class="footer__cop">
+          <li class="footer__cop_text">2020 @ООО “Город-сад”</li>
+          <li class="footer__cop_text">Разработка сайта — <span class="footer__cop_text-span">WEBPROFY</span></li>
+        </ul>
       </div>
     </div>
-  </section>
+  </footer>
 </body>
 
 </html>
