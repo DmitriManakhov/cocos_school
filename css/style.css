@@ -15,14 +15,14 @@ a{
   margin: 0 auto;
 }
 
-.instagramm__title{
+.main__title{
   font-weight: 900;
   font-size: 35px;
   text-align: center;
   position: relative;
   margin-bottom: 45px;
 }
-.instagramm__title::after{
+.main__title::after{
 position: absolute;
 content: "";
 width: 87px;
